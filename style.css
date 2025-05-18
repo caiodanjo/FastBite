@@ -68,7 +68,7 @@ header {
 }
 
 .carrinho {
-    width: 113.28px;
+    width: 114px;
     height: 40px;
     font-size: 14px;
     font-weight: 500;
@@ -89,7 +89,7 @@ header {
 }
 
 .online {
-    width: 113.28px;
+    width: 114px;
     height: 40px;
     color: #FFFFFF;
     background-color: #E53E3E;
@@ -112,16 +112,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 36px;
-    height: 648px;
+    padding: 100px;
+
+    position: relative;
+    z-index: 1;
 }
 
-.conteudo1 {
+.container1 .conteudo {
+    padding-bottom: 60px;
+}
+
+.conteudo {
     max-width: 1400px;
     width: 100%;
 
     display: flex;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .texto-cont1 h1 {
@@ -220,4 +228,42 @@ header {
     background: #FFFFFF;
     color: #121928;
     transition: 0.5s;
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-bottom svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container2 {
+    background: #FFFAF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nossoCardapio h2 {
+    color: #121928;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.nossoCardapio hr {
+    width: 80px;
+    height: 4px;
+    margin-bottom: 16px;
+    background: #E53E3E;
+    border: 0;
 }
