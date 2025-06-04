@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrinho.css">
+    <title>FastBite</title>
+</head>
+<body>
+    <header>
+      <div class="container-header">
+        <h1>
+          <a href="./index.html">FastBite</a>
+        </h1>
+    
+        <nav>
+          <ul>
+            <li><a href="#cardapio">Menu</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#locais">Locais</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+    
+        <div class="botoes1">
+          <a href="./carrinho.html">
+            <button class="carrinho">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart" data-lov-id="src/components/Header.tsx:28:14" data-lov-name="ShoppingCart" data-component-path="src/components/Header.tsx" data-component-line="28" data-component-file="Header.tsx" data-component-name="ShoppingCart" data-component-content="%7B%7D"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+              Carrinho
+            </button>
+          </a>
+          
+          <button class="online">Pedir Online</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <h1>Meu Carrinho</h1>
+
+            <div class="carrinho-container">
+                <div class="pedido">
+                    <div class="itens">
+                        <div class="item-selecionado">
+                            <img src="./Images/hamburguer1.avif" alt="Classic Burger">
+                            <div class="item-text">
+                                <h2>Classic Burger</h2>
+                                <p>R$ 29,90</p>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus h-4 w-4" data-lov-id="src/pages/Cart.tsx:68:24" data-lov-name="Minus" data-component-path="src/pages/Cart.tsx" data-component-line="68" data-component-file="Cart.tsx" data-component-name="Minus" data-component-content="%7B%22className%22%3A%22h-4%20w-4%22%7D"><path d="M5 12h14"></path></svg>
+                            </button>
+                            <span>2</span>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4" data-lov-id="src/pages/Cart.tsx:76:24" data-lov-name="Plus" data-component-path="src/pages/Cart.tsx" data-component-line="76" data-component-file="Cart.tsx" data-component-name="Plus" data-component-content="%7B%22className%22%3A%22h-4%20w-4%22%7D"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                            </button>
+                            <p>R$ 59,80</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 h-5 w-5" data-lov-id="src/pages/Cart.tsx:83:22" data-lov-name="Trash2" data-component-path="src/pages/Cart.tsx" data-component-line="83" data-component-file="Cart.tsx" data-component-name="Trash2" data-component-content="%7B%22className%22%3A%22h-5%20w-5%22%7D"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" x2="10" y1="11" y2="17"></line><line x1="14" x2="14" y1="11" y2="17"></line></svg>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="itens">
+                        <div class="item-selecionado">
+                            <img src="./Images/fritas.avif" alt="Batata Frita">
+                            <div class="item-text">
+                                <h2>Batata Frita</h2>
+                                <p>R$ 14,90</p>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus h-4 w-4" data-lov-id="src/pages/Cart.tsx:68:24" data-lov-name="Minus" data-component-path="src/pages/Cart.tsx" data-component-line="68" data-component-file="Cart.tsx" data-component-name="Minus" data-component-content="%7B%22className%22%3A%22h-4%20w-4%22%7D"><path d="M5 12h14"></path></svg>
+                            </button>
+                            <span>1</span>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4" data-lov-id="src/pages/Cart.tsx:76:24" data-lov-name="Plus" data-component-path="src/pages/Cart.tsx" data-component-line="76" data-component-file="Cart.tsx" data-component-name="Plus" data-component-content="%7B%22className%22%3A%22h-4%20w-4%22%7D"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                            </button>
+                            <p>R$ 14,90</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 h-5 w-5" data-lov-id="src/pages/Cart.tsx:83:22" data-lov-name="Trash2" data-component-path="src/pages/Cart.tsx" data-component-line="83" data-component-file="Cart.tsx" data-component-name="Trash2" data-component-content="%7B%22className%22%3A%22h-5%20w-5%22%7D"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" x2="10" y1="11" y2="17"></line><line x1="14" x2="14" y1="11" y2="17"></line></svg>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="itens">
+                        <div class="item-selecionado">
+                            <img src="./Images/milkshake.avif" alt="Milkshake">
+                            <div class="item-text">
+                                <h2>Milkshake</h2>
+                                <p>R$ 15,90</p>
+                            </div>
+                        </div>
+
+                        <div class="total">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus h-4 w-4" data-lov-id="src/pages/Cart.tsx:68:24" data-lov-name="Minus" data-component-path="src/pages/Cart.tsx" data-component-line="68" data-component-file="Cart.tsx" data-component-name="Minus" data-component-content="%7B%22className%22%3A%22h-4%20w-4%22%7D"><path d="M5 12h14"></path></svg>
+                            </button>
+                            <span>1</span>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4" data-lov-id="src/pages/Cart.tsx:76:24" data-lov-name="Plus" data-component-path="src/pages/Cart.tsx" data-component-line="76" data-component-file="Cart.tsx" data-component-name="Plus" data-component-content="%7B%22className%22%3A%22h-4%20w-4%22%7D"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                            </button>
+                            <p>R$ 15,90</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 h-5 w-5" data-lov-id="src/pages/Cart.tsx:83:22" data-lov-name="Trash2" data-component-path="src/pages/Cart.tsx" data-component-line="83" data-component-file="Cart.tsx" data-component-name="Trash2" data-component-content="%7B%22className%22%3A%22h-5%20w-5%22%7D"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" x2="10" y1="11" y2="17"></line><line x1="14" x2="14" y1="11" y2="17"></line></svg>
+                        </div>
+                    </div>
+
+                    <hr>
+                </div>
+
+                <div class="resumo-pedido">
+                    <h2>Resumo do Pedido</h2>
+                    <div class="subtotal">
+                        <p class="texto-resumo">Subtotal</p>
+                        <p class="valor-resumo">R$ 90,60</p>
+                    </div>
+                    <div class="subtotal">
+                        <p class="texto-resumo">Taxa de Entrega</p>
+                        <p class="valor-resumo">R$ 5,99</p>
+                    </div>
+
+                    <hr>
+
+                    <div class="subtotal">
+                        <p class="texto-total">Total</p>
+                        <p class="valor-total">R$ 96,59</p>
+                    </div>
+                    <button class="finalizar-pedido">Finalizar Pedido</button>
+                    <p class="politicas">Ao finalizar seu pedido, você concorda com nossos Termos de Serviço e Política de Privacidade.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+      <div class="conteudo">
+        <div class="footer-conteudo">
+          <div class="fast-bite">
+            <h3>FastBite</h3>
+            <p>Comida rápida e saborosa, feita com ingredientes frescos e de qualidade.</p>
+
+            <div class="redes">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook" data-lov-id="src/components/Footer.tsx:17:16" data-lov-name="Facebook" data-component-path="src/components/Footer.tsx" data-component-line="17" data-component-file="Footer.tsx" data-component-name="Facebook" data-component-content="%7B%7D"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram" data-lov-id="src/components/Footer.tsx:20:16" data-lov-name="Instagram" data-component-path="src/components/Footer.tsx" data-component-line="20" data-component-file="Footer.tsx" data-component-name="Instagram" data-component-content="%7B%7D"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter" data-lov-id="src/components/Footer.tsx:23:16" data-lov-name="Twitter" data-component-path="src/components/Footer.tsx" data-component-line="23" data-component-file="Footer.tsx" data-component-name="Twitter" data-component-content="%7B%7D"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+            </div>
+          </div>
+
+          <div class="links-rapidos">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li>
+                <a href="#inicio">Início</a>
+              </li>
+              <li>
+                <a href="#cardapio">Menu</a>
+              </li>
+              <li>
+                <a href="#sobre">Sobre</a>
+              </li>
+              <li>
+                <a href="#locais">Lojas</a>
+              </li>
+              <li>
+                <a href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="horario-funcionamento">
+            <h4>Horário de Funcionamento</h4>
+            <ul>
+              <li>
+                Segunda a Sexta: 10:00 - 22:00
+              </li>
+              <li>
+                Sábado: 10:00 - 23:00
+              </li>
+              <li>
+                Domingo: 11:00 - 21:00
+              </li>
+              <li>
+                Feriados: 11:00 - 20:00
+              </li>
+            </ul>
+          </div>
+
+          <div class="contato">
+            <h4>Contato</h4>
+            <ul>
+              <li>contato@fastbite.com</li>
+              <li>+55 (11) 9999-9999</li>
+              <li>Av. Paulista, 1000, São Paulo</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+
+        <p class="copyright">&copy; 2025 FastBite. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+</body>
+</html>

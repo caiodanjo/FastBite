@@ -137,8 +137,7 @@ main {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .texto-cont1 h1 {
@@ -417,7 +416,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 64px;
+    padding-block: 64px;
 }
 
 .container3 img {
@@ -463,4 +462,250 @@ hr {
     font-size: 14px;
     font-weight: 400;
     margin-top: 0;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 64px;
+}
+
+.container4 .conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 h2 {
+    color: #121928;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.localizacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    margin-top: 48px;
+}
+
+.card-localizacao {
+    background: #F9FAFB;
+    width: 435px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-localizacao h2 {
+    color: #E53E3E;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.card-localizacao svg {
+    color: #ED8936;
+}
+
+.local {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.telefone {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.horario {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.card-localizacao p {
+    color: #374151;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 12px;
+}
+
+.card-localizacao a {
+    text-decoration: none;
+    color: #E53E3E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-localizacao a:hover {
+    color: #C53030;
+}
+
+.card-localizacao:hover {
+    transform: scale(1.01);
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E53E3E;
+    padding-block: 64px;
+    color: #FFFFFF;
+}
+
+.container5 .conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container5 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.container5 p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    max-width: 672px;
+    text-align: center;
+}
+
+.botoes-pedido button {
+    margin-inline: 8px;
+    border-radius: 999px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fazer-pedido {
+    color: #E53E3E;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.fazer-pedido button {
+    background-color: #FFFFFF;
+}
+
+.fazer-pedido:hover {
+    background-color: #dfdfdf;
+    transition: 0.5s;
+}
+
+.encontrar-loja {
+    border: 1px solid #FFFFFF;
+    background: none;
+    color: #FFFFFF;
+}
+
+.encontrar-loja:hover {
+    background: #FFFFFF;
+    color: #E53E3E;
+    transition: 0.5s;
+}
+
+footer {
+    background: #1A202C;
+    color: #FFFFFF;
+    padding: 48px 16px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-conteudo {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.footer-conteudo div {
+    min-width: 320px;
+    max-width: 340px;
+}
+
+.fast-bite h3 {
+    color: #E53E3E;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.fast-bite p {
+    color: #D1D5DB;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.redes {
+    display: flex;
+    gap: 16px;
+}
+
+.redes svg {
+    color: #D1D5DB;
+    cursor: pointer;
+}
+
+.redes svg:hover {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+footer h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+    color: #D1D5DB;
+}
+
+.links-rapidos a {
+    text-decoration: none;
+    color: #D1D5DB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer ul li a:hover {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+footer hr {
+    height: 1px;
+    width: 100%;
+    background-color: #4B5563;
+}
+
+.copyright {
+    padding-top: 32px;
+    color: #9CA3AF;
+    font-size: 14px;
+    font-weight: 400;
 }
